@@ -2,7 +2,7 @@
 body {
   max-width: 1024px;
   margin: 0 auto;
-  background: rgba(0, 0, 0, 0.655) url("./img/code.jpg") no-repeat;
+  background: rgba(0, 0, 0, 0.9) url("./img/code.jpg") no-repeat;
   background-size: cover;
   background-blend-mode: overlay;
   font-family: "Shadows Into Light", cursive;
