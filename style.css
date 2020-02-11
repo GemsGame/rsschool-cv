@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap");
+body {
+  max-width: 1024px;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.9) url("./img/code.jpg") no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  font-family: "Shadows Into Light", cursive;
+  color: white;
+}
+
+header {
+  width: 100%;
+  height: 150px;
+}
+section {
+  width: 100%;
+  border-radius: 6px;
+  margin: 10px;
+  box-shadow: 4px 0px 15px 4px rgba(7, 7, 7, 0.945);
+  background-color: royalblue;
+}
+
+section:hover {
+  animation: 0.5s linear 0s 1 alternate move;
+  cursor: pointer;
+}
+
+@keyframes move {
+  from {
+    margin-left: -2%;
+  }
+  to {
+    margin-left: 2%;
+  }
+}
+
+figure {
+  width: 150px;
+  height: 150px;
+  background: rgba(255, 255, 255, 0.52) url("./img/photo.jpg");
+  background-blend-mode: overlay;
+  background-size: cover;
+  border: 5px solid rgb(255, 252, 252);
+  border-radius: 50%;
+  position: relative;
+  left: 150px;
+  top: 70px;
+  z-index: 1;
+}
+
+figure:hover {
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.178) url("./img/photo.jpg");
+  background-blend-mode: overlay;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+  margin: 0px;
+}
+
+ul li {
+  font-size: 21px;
+}
+
+article {
+  padding: 5px;
+}
+
+p {
+  font-size: 18px;
+}
+h2,
+h3 {
+  text-align: center;
+  font-size: 30px;
+  margin: 0px;
+}
+
+section:nth-child(odd) {
+  background-color: rgb(65, 225, 86);
+}
+
+footer {
+  text-align: center;
+}
